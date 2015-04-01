@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <title>Calculator</title>
+
+</head>
+  <body>
+    <h1>Calculator</h1>
+      <ul>
+        <li>solution: <%= solution %> </li>
+
+  <h2> To add, input values and select (add)</h2>
+
+      <form action="/add" method="POST">
+        <input type="value" name="number1" placeholder="number1">
+        <input type="value" name="number2" placeholder="number2">
+      <button type= "add">Add </button>
+    </form>
+
+  <h2> To subtract, input values and select (subtract)</h2>
+
+    <form action="/subtract" method="POST">
+      <input type="value" name="number1" placeholder="number1">
+      <input type="value" name="number2" placeholder="number2">
+      <button type= "subtract">subtract </button>
+    </form>
+
+  <h2> To multiply, input values and select (multiply)</h2>
+
+    <form action="/multiply" method="POST">
+      <input type="value" name="number1" placeholder="number1">
+      <input type="value" name="number2" placeholder="number2">
+      <button type= "multiply">multiply </button>
+    </form>
+
+  <h2> To divide, input values and select (divide)</h2>
+
+    <form action="/divide" method="POST">
+      <input type="value" name="number1" placeholder="number1">
+      <input type="value" name="number2" placeholder="number2">
+      <button type= "divide">divide </button>
+    </form>
+
+</body>
+</html>
